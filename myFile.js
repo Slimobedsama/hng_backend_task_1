@@ -4,10 +4,10 @@ const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Fri
 const profile = [{
     slack_name: 'Obedsama',
     current_day: daysOfWeek[today],
-    utc_time: new Date(),
+    utc_time: new Date().toISOString(),
     track: 'backend',
-    github_file_url: 'git',
-    github_repo_url: 'git.com',
+    github_file_url: 'Slimobedsama/hng_backend_task_1/blob/main/server.js',
+    github_repo_url: 'Slimobedsama/hng_backend_task_1',
     status_code: 200
 }]
 module.exports = profile;
