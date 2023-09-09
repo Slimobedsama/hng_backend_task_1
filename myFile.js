@@ -6,8 +6,8 @@ const profile = [{
     current_day: daysOfWeek[today],
     utc_time: new Date().toISOString(),
     track: 'backend',
-    github_file_url: 'Slimobedsama/hng_backend_task_1/blob/main/server.js',
-    github_repo_url: 'Slimobedsama/hng_backend_task_1',
+    github_file_url: 'https://github.com/Slimobedsama/hng_backend_task_1/blob/main/server.js',
+    github_repo_url: 'https://github.com/Slimobedsama/hng_backend_task_1',
     status_code: 200
 }]
 module.exports = profile;
