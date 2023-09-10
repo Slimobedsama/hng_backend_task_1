@@ -12,7 +12,7 @@ app.get('/api', (req, res)=> {
     }
 
     const current_day = moment().day()
-    const weekOfTheDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+    const daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
     const utc_time = moment.utc().format()
 
     const github_file_url = "https://github.com/Slimobedsama/hng_backend_task_1/blob/main/server.js"
@@ -20,7 +20,7 @@ app.get('/api', (req, res)=> {
     
     const info = {
         slack_name,
-        current_day:weekOfTheDays[current_day],
+        current_day:daysOfTheWeek[current_day],
         utc_time,
         track,
         github_file_url,
