@@ -1,5 +1,5 @@
 const moment = require('moment');
-const time = moment().utc().format();
+const time = moment.utc().format();
 const today = moment().day();
 const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 const profile = {
