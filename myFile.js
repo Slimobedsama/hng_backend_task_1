@@ -4,7 +4,7 @@ const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Fri
 const profile = {
     slack_name: "Obedsama",
     current_day: daysOfWeek[today],
-    utc_time: new Date().toISOString(),
+    utc_time: moment().utc().format(),
     track: "backend",
     github_file_url: "https://github.com/Slimobedsama/hng_backend_task_1/blob/main/server.js",
     github_repo_url: "https://github.com/Slimobedsama/hng_backend_task_1",
